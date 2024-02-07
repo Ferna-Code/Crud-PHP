@@ -3,7 +3,7 @@ require_once 'models/Validacion.php';
 require_once 'models/conec.php';
 
 $link = Conectarse();
-
+$holamundo = "hola mundo";
 // Check if the "Productos" table exists
 $mostrarBoton = !verifyTable($link);
 
